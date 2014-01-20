@@ -14,7 +14,7 @@
 #define NOTIFICATION_REMOVE_ALL_OBJECTS @"notification_remove_all_objects"
 #define NOTIFICATION_REMOVE_OBJECTS @"notification_remove_objects"
 
-@interface MBObservingMutableDictionary : NSObject
+@interface MBObservingMutableDictionary : NSMutableDictionary
 
 -(id)init;
 -(id)initWithDictionary:(NSDictionary *)dictionary;
