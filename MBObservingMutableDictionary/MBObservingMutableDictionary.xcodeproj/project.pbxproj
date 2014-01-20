@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F574B455188D42010032ADDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F574B454188D42010032ADDD /* Foundation.framework */; };
+		F574B457188D42010032ADDD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F574B456188D42010032ADDD /* CoreGraphics.framework */; };
+		F574B459188D42010032ADDD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F574B458188D42010032ADDD /* UIKit.framework */; };
+		F574B45F188D42010032ADDD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F574B45D188D42010032ADDD /* InfoPlist.strings */; };
+		F574B461188D42010032ADDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F574B460188D42010032ADDD /* main.m */; };
+		F574B465188D42010032ADDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F574B464188D42010032ADDD /* AppDelegate.m */; };
+		F574B468188D42010032ADDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F574B466188D42010032ADDD /* Main.storyboard */; };
+		F574B46B188D42010032ADDD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F574B46A188D42010032ADDD /* ViewController.m */; };
+		F574B46D188D42010032ADDD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F574B46C188D42010032ADDD /* Images.xcassets */; };
+		F574B474188D42010032ADDD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F574B473188D42010032ADDD /* XCTest.framework */; };
+		F574B475188D42010032ADDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F574B454188D42010032ADDD /* Foundation.framework */; };
+		F574B476188D42010032ADDD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F574B458188D42010032ADDD /* UIKit.framework */; };
+		F574B47E188D42020032ADDD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F574B47C188D42020032ADDD /* InfoPlist.strings */; };
+		F574B480188D42020032ADDD /* MBObservingMutableDictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F574B47F188D42020032ADDD /* MBObservingMutableDictionaryTests.m */; };
+		F574B48B188D42210032ADDD /* MBObservingMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = F574B48A188D42210032ADDD /* MBObservingMutableDictionary.m */; };
+		F574B48C188D42210032ADDD /* MBObservingMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = F574B48A188D42210032ADDD /* MBObservingMutableDictionary.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F574B477188D42010032ADDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F574B449188D42010032ADDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F574B450188D42010032ADDD;
+			remoteInfo = MBObservingMutableDictionary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F574B451188D42010032ADDD /* MBObservingMutableDictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MBObservingMutableDictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F574B454188D42010032ADDD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F574B456188D42010032ADDD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F574B458188D42010032ADDD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F574B45C188D42010032ADDD /* MBObservingMutableDictionary-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MBObservingMutableDictionary-Info.plist"; sourceTree = "<group>"; };
+		F574B45E188D42010032ADDD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F574B460188D42010032ADDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F574B462188D42010032ADDD /* MBObservingMutableDictionary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBObservingMutableDictionary-Prefix.pch"; sourceTree = "<group>"; };
+		F574B463188D42010032ADDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F574B464188D42010032ADDD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F574B467188D42010032ADDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F574B469188D42010032ADDD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F574B46A188D42010032ADDD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F574B46C188D42010032ADDD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F574B472188D42010032ADDD /* MBObservingMutableDictionaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MBObservingMutableDictionaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F574B473188D42010032ADDD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F574B47B188D42010032ADDD /* MBObservingMutableDictionaryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MBObservingMutableDictionaryTests-Info.plist"; sourceTree = "<group>"; };
+		F574B47D188D42020032ADDD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F574B47F188D42020032ADDD /* MBObservingMutableDictionaryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBObservingMutableDictionaryTests.m; sourceTree = "<group>"; };
+		F574B489188D42210032ADDD /* MBObservingMutableDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBObservingMutableDictionary.h; sourceTree = "<group>"; };
+		F574B48A188D42210032ADDD /* MBObservingMutableDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBObservingMutableDictionary.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F574B44E188D42010032ADDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F574B457188D42010032ADDD /* CoreGraphics.framework in Frameworks */,
+				F574B459188D42010032ADDD /* UIKit.framework in Frameworks */,
+				F574B455188D42010032ADDD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F574B46F188D42010032ADDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F574B474188D42010032ADDD /* XCTest.framework in Frameworks */,
+				F574B476188D42010032ADDD /* UIKit.framework in Frameworks */,
+				F574B475188D42010032ADDD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F574B448188D42010032ADDD = {
+			isa = PBXGroup;
+			children = (
+				F574B45A188D42010032ADDD /* MBObservingMutableDictionary */,
+				F574B479188D42010032ADDD /* MBObservingMutableDictionaryTests */,
+				F574B453188D42010032ADDD /* Frameworks */,
+				F574B452188D42010032ADDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F574B452188D42010032ADDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F574B451188D42010032ADDD /* MBObservingMutableDictionary.app */,
+				F574B472188D42010032ADDD /* MBObservingMutableDictionaryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F574B453188D42010032ADDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F574B454188D42010032ADDD /* Foundation.framework */,
+				F574B456188D42010032ADDD /* CoreGraphics.framework */,
+				F574B458188D42010032ADDD /* UIKit.framework */,
+				F574B473188D42010032ADDD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F574B45A188D42010032ADDD /* MBObservingMutableDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				F574B463188D42010032ADDD /* AppDelegate.h */,
+				F574B464188D42010032ADDD /* AppDelegate.m */,
+				F574B466188D42010032ADDD /* Main.storyboard */,
+				F574B469188D42010032ADDD /* ViewController.h */,
+				F574B46A188D42010032ADDD /* ViewController.m */,
+				F574B489188D42210032ADDD /* MBObservingMutableDictionary.h */,
+				F574B48A188D42210032ADDD /* MBObservingMutableDictionary.m */,
+				F574B46C188D42010032ADDD /* Images.xcassets */,
+				F574B45B188D42010032ADDD /* Supporting Files */,
+			);
+			path = MBObservingMutableDictionary;
+			sourceTree = "<group>";
+		};
+		F574B45B188D42010032ADDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F574B45C188D42010032ADDD /* MBObservingMutableDictionary-Info.plist */,
+				F574B45D188D42010032ADDD /* InfoPlist.strings */,
+				F574B460188D42010032ADDD /* main.m */,
+				F574B462188D42010032ADDD /* MBObservingMutableDictionary-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F574B479188D42010032ADDD /* MBObservingMutableDictionaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				F574B47F188D42020032ADDD /* MBObservingMutableDictionaryTests.m */,
+				F574B47A188D42010032ADDD /* Supporting Files */,
+			);
+			path = MBObservingMutableDictionaryTests;
+			sourceTree = "<group>";
+		};
+		F574B47A188D42010032ADDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F574B47B188D42010032ADDD /* MBObservingMutableDictionaryTests-Info.plist */,
+				F574B47C188D42020032ADDD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F574B450188D42010032ADDD /* MBObservingMutableDictionary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F574B483188D42020032ADDD /* Build configuration list for PBXNativeTarget "MBObservingMutableDictionary" */;
+			buildPhases = (
+				F574B44D188D42010032ADDD /* Sources */,
+				F574B44E188D42010032ADDD /* Frameworks */,
+				F574B44F188D42010032ADDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBObservingMutableDictionary;
+			productName = MBObservingMutableDictionary;
+			productReference = F574B451188D42010032ADDD /* MBObservingMutableDictionary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F574B471188D42010032ADDD /* MBObservingMutableDictionaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F574B486188D42020032ADDD /* Build configuration list for PBXNativeTarget "MBObservingMutableDictionaryTests" */;
+			buildPhases = (
+				F574B46E188D42010032ADDD /* Sources */,
+				F574B46F188D42010032ADDD /* Frameworks */,
+				F574B470188D42010032ADDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F574B478188D42010032ADDD /* PBXTargetDependency */,
+			);
+			name = MBObservingMutableDictionaryTests;
+			productName = MBObservingMutableDictionaryTests;
+			productReference = F574B472188D42010032ADDD /* MBObservingMutableDictionaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F574B449188D42010032ADDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Moonbeom Kyle KWON";
+				TargetAttributes = {
+					F574B471188D42010032ADDD = {
+						TestTargetID = F574B450188D42010032ADDD;
+					};
+				};
+			};
+			buildConfigurationList = F574B44C188D42010032ADDD /* Build configuration list for PBXProject "MBObservingMutableDictionary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F574B448188D42010032ADDD;
+			productRefGroup = F574B452188D42010032ADDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F574B450188D42010032ADDD /* MBObservingMutableDictionary */,
+				F574B471188D42010032ADDD /* MBObservingMutableDictionaryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F574B44F188D42010032ADDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F574B46D188D42010032ADDD /* Images.xcassets in Resources */,
+				F574B45F188D42010032ADDD /* InfoPlist.strings in Resources */,
+				F574B468188D42010032ADDD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F574B470188D42010032ADDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F574B47E188D42020032ADDD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F574B44D188D42010032ADDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F574B46B188D42010032ADDD /* ViewController.m in Sources */,
+				F574B465188D42010032ADDD /* AppDelegate.m in Sources */,
+				F574B461188D42010032ADDD /* main.m in Sources */,
+				F574B48B188D42210032ADDD /* MBObservingMutableDictionary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F574B46E188D42010032ADDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F574B480188D42020032ADDD /* MBObservingMutableDictionaryTests.m in Sources */,
+				F574B48C188D42210032ADDD /* MBObservingMutableDictionary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F574B478188D42010032ADDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F574B450188D42010032ADDD /* MBObservingMutableDictionary */;
+			targetProxy = F574B477188D42010032ADDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F574B45D188D42010032ADDD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F574B45E188D42010032ADDD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F574B466188D42010032ADDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F574B467188D42010032ADDD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F574B47C188D42020032ADDD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F574B47D188D42020032ADDD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F574B481188D42020032ADDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F574B482188D42020032ADDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F574B484188D42020032ADDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MBObservingMutableDictionary/MBObservingMutableDictionary-Prefix.pch";
+				INFOPLIST_FILE = "MBObservingMutableDictionary/MBObservingMutableDictionary-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F574B485188D42020032ADDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MBObservingMutableDictionary/MBObservingMutableDictionary-Prefix.pch";
+				INFOPLIST_FILE = "MBObservingMutableDictionary/MBObservingMutableDictionary-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F574B487188D42020032ADDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MBObservingMutableDictionary.app/MBObservingMutableDictionary";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MBObservingMutableDictionary/MBObservingMutableDictionary-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MBObservingMutableDictionaryTests/MBObservingMutableDictionaryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F574B488188D42020032ADDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MBObservingMutableDictionary.app/MBObservingMutableDictionary";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MBObservingMutableDictionary/MBObservingMutableDictionary-Prefix.pch";
+				INFOPLIST_FILE = "MBObservingMutableDictionaryTests/MBObservingMutableDictionaryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F574B44C188D42010032ADDD /* Build configuration list for PBXProject "MBObservingMutableDictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F574B481188D42020032ADDD /* Debug */,
+				F574B482188D42020032ADDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F574B483188D42020032ADDD /* Build configuration list for PBXNativeTarget "MBObservingMutableDictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F574B484188D42020032ADDD /* Debug */,
+				F574B485188D42020032ADDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F574B486188D42020032ADDD /* Build configuration list for PBXNativeTarget "MBObservingMutableDictionaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F574B487188D42020032ADDD /* Debug */,
+				F574B488188D42020032ADDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F574B449188D42010032ADDD /* Project object */;
+}
